@@ -6,6 +6,7 @@ import 'package:study_helper/widgets/user_inputs_and_gestures_widget.dart';
 import 'package:widget_with_codeview/widget_with_codeview.dart';
 import 'package:study_helper/widgets/auth_screen.dart';
 import 'package:study_helper/widgets/async_data_screen.dart';
+import 'package:study_helper/widgets/alert_dialog_screen.dart';
 
 class CategoryScreen extends StatelessWidget {
   final String category;
@@ -34,6 +35,10 @@ class CategoryScreen extends StatelessWidget {
       case 'Routing':
         widgetToShow = const RoutingWidget();
         filePath = 'lib/widgets/routing_widget.dart';
+        break;
+      case 'Alert Dialog':
+        widgetToShow = AlertDialogScreen();
+        filePath = 'lib/widgets/async_data_screen.dart';
         break;
       case 'Authentication':
         widgetToShow = AuthScreen();
@@ -66,7 +71,6 @@ class CategoryScreen extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
-            borderRadius: BorderRadius.vertical(bottom: Radius.circular(20)),
           ),
         ),
       ),

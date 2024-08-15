@@ -5,9 +5,7 @@ class AsyncDataScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Asynchronous Data Fetch'),
-      ),
+      appBar: AppBar(),
       body: FutureBuilder<List<Map<String, dynamic>>>(
         // Simulate fetching data from a Firestore-like service
         future: _fetchMockData(),

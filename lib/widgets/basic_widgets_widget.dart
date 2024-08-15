@@ -16,7 +16,7 @@ class BasicWidgetsWidget extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Text(
-                  'Basic Widgets',
+                  'Text Widget',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
               ),

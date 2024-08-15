@@ -22,11 +22,9 @@ class HomeScreen extends StatelessWidget {
     {'name': 'Flutter Layout', 'icon': Icons.view_module},
     {'name': 'User Inputs & Gestures', 'icon': Icons.touch_app},
     {'name': 'Routing', 'icon': Icons.map},
+    {'name': 'Alert Dialog', 'icon': Icons.info},
     {'name': 'Authentication', 'icon': Icons.lock}, // New category icon
-    {
-      'name': 'Asynchronous Data',
-      'icon': Icons.multitrack_audio
-    }, // New category icon
+    {'name': 'Asynchronous Data', 'icon': Icons.multitrack_audio},
   ];
 
   // Method to show the dialog box
@@ -37,7 +35,7 @@ class HomeScreen extends StatelessWidget {
         return AlertDialog(
           title: Text('Information'),
           content: Text(
-              'This is a study helper app to assist with learning various Flutter concepts.'),
+              '''This app was created by Todd Nash as a study guide for the Mobile App Development Course.  No information is collected on behalf of the user and no network connections are established.  View the full source code here: https://github.com/finteger/study_helper '''),
           actions: <Widget>[
             TextButton(
               child: Text('OK'),
@@ -59,7 +57,7 @@ class HomeScreen extends StatelessWidget {
         title: Row(
           children: [
             FlutterLogo(size: 40),
-            SizedBox(width: 10),
+            SizedBox(width: 20),
             const Text(
               'Study Helper',
               style:

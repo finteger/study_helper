@@ -10,10 +10,7 @@ class FlutterLayoutWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        // AppBar with title and actions
-        title: Text('Flutter Layout Example'),
         actions: [
-          // Search button in the AppBar
           IconButton(
             icon: Icon(Icons.search),
             onPressed: () {

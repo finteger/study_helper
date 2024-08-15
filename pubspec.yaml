@@ -30,3 +30,4 @@ flutter:
     - lib/widgets/routing_widget.dart
     - lib/widgets/async_data_screen.dart
     - lib/widgets/auth_screen.dart
+    - lib/widgets/alert_dialog_screen.dart

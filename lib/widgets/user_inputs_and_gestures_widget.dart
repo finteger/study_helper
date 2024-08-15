@@ -21,10 +21,7 @@ class _UserInputsAndGesturesWidgetState
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        // AppBar with title
-        title: Text('User Inputs & Gestures'),
-      ),
+      appBar: AppBar(),
       body: Padding(
         // Padding around the main content
         padding: const EdgeInsets.all(16.0),
