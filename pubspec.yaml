@@ -1,0 +1,32 @@
+name: study_helper
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  widget_with_codeview: ^3.1.0
+  float_column: ^2.1.7 
+  cloud_firestore: ^4.14.0
+  firebase_auth: ^4.16.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - lib/widgets/basic_widgets_widget.dart
+    - lib/widgets/flutter_layout_widget.dart
+    - lib/widgets/user_inputs_and_gestures_widget.dart
+    - lib/widgets/routing_widget.dart
+    - lib/widgets/async_data_screen.dart
+    - lib/widgets/auth_screen.dart
