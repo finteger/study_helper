@@ -38,7 +38,7 @@ class CategoryScreen extends StatelessWidget {
         break;
       case 'Alert Dialog':
         widgetToShow = AlertDialogScreen();
-        filePath = 'lib/widgets/async_data_screen.dart';
+        filePath = 'lib/widgets/alert_dialog_screen.dart';
         break;
       case 'Authentication':
         widgetToShow = AuthScreen();
